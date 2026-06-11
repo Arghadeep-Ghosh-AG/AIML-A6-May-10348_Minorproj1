@@ -1,22 +1,135 @@
 # AIML-A6-May-10348_Minorproj1
 
-**Abstract**
+# Resume Screening System
 
-The Resume Screening System is an intelligent recruitment support tool designed to automate the process of evaluating and ranking resumes based on job requirements. Traditional resume screening is a time-consuming task that requires recruiters to manually review numerous applications, often leading to delays and inconsistencies in candidate selection. This project leverages Natural Language Processing (NLP) and Machine Learning techniques to streamline the screening process and improve recruitment efficiency.
+## Overview
 
-The system analyzes resumes by extracting relevant information such as skills, education, work experience, certifications, and technical competencies. Using text preprocessing techniques including tokenization, stop-word removal, and feature extraction through TF-IDF, the resumes are transformed into structured representations. Machine learning algorithms are then applied to classify and rank candidates according to their relevance to a given job description.
+The Resume Screening System is a Machine Learning and Natural Language Processing (NLP) based application that automatically classifies resumes into different job categories. The system helps recruiters and organizations reduce manual effort by analyzing resume content and predicting the most suitable job domain.
 
-A user-friendly interface enables recruiters to upload resumes and job descriptions, view matching scores, and identify the most suitable candidates. The system reduces manual effort, minimizes human bias, and accelerates the initial stages of recruitment. Performance is evaluated using standard metrics such as accuracy, precision, recall, and F1-score.
+The project uses text preprocessing, TF-IDF vectorization, and machine learning classification algorithms to learn patterns from resume data and categorize unseen resumes accurately.
 
-This project demonstrates the practical application of NLP and machine learning in human resource management and provides a scalable solution for modern recruitment processes. The developed system can be further enhanced by incorporating advanced language models and semantic matching techniques for improved candidate assessment.
+---
 
+## Features
+
+* Automated resume classification
+* NLP-based text preprocessing
+* TF-IDF feature extraction
+* Machine Learning based prediction
+* User-friendly Streamlit interface
+* Fast and scalable resume screening process
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* Scikit-Learn
+* Streamlit
+* NLP
+* TF-IDF Vectorization
+* Machine Learning
+
+---
 
 ## Dataset
 
-Download the dataset from:
+This project uses the Resume Dataset available on Kaggle.
+
+Dataset Link:
 
 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
-Place Resume.xls inside:
+After downloading the dataset, place the file in the following location:
 
-dataset/Resume.xls
+dataset/
+└── Resume.xls
+
+---
+
+## Project Structure
+
+Resume-Screening-System/
+
+├── dataset/
+
+│   └── Resume.xls
+
+├── models/
+
+├── train.py
+
+├── app.py
+
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/Resume-Screening-System.git
+
+Move into the project directory:
+
+cd Resume-Screening-System
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+---
+
+## Training the Model
+
+Run:
+
+python train.py
+
+The trained model will be saved inside the models directory.
+
+---
+
+## Running the Application
+
+Run:
+
+streamlit run app.py
+
+Open the generated local URL in your browser.
+
+---
+
+## Workflow
+
+1. Load resume dataset.
+2. Preprocess resume text.
+3. Convert text into numerical features using TF-IDF.
+4. Train the machine learning model.
+5. Save the trained model.
+6. Predict the category of new resumes through the Streamlit application.
+
+---
+
+## Future Enhancements
+
+* PDF resume upload support
+* Resume ranking based on job description
+* Skill extraction and analysis
+* Candidate-job matching score
+* Deep Learning and BERT-based classification
+* Resume recommendation system
+
+---
+
+## Author
+
+Arghadeep Ghosh
+
+B.Tech Computer Science Engineering
