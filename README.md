@@ -70,42 +70,6 @@ Resume-Screening-System/
 
 ---
 
-## Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/Resume-Screening-System.git
-
-Move into the project directory:
-
-cd Resume-Screening-System
-
-Install dependencies:
-
-pip install -r requirements.txt
-
----
-
-## Training the Model
-
-Run:
-
-python train.py
-
-The trained model will be saved inside the models directory.
-
----
-
-## Running the Application
-
-Run:
-
-streamlit run app.py
-
-Open the generated local URL in your browser.
-
----
-
 ## Workflow
 
 1. Load resume dataset.
@@ -114,17 +78,6 @@ Open the generated local URL in your browser.
 4. Train the machine learning model.
 5. Save the trained model.
 6. Predict the category of new resumes through the Streamlit application.
-
----
-
-## Future Enhancements
-
-* PDF resume upload support
-* Resume ranking based on job description
-* Skill extraction and analysis
-* Candidate-job matching score
-* Deep Learning and BERT-based classification
-* Resume recommendation system
 
 ---
 
