@@ -9,3 +9,14 @@ The system analyzes resumes by extracting relevant information such as skills, e
 A user-friendly interface enables recruiters to upload resumes and job descriptions, view matching scores, and identify the most suitable candidates. The system reduces manual effort, minimizes human bias, and accelerates the initial stages of recruitment. Performance is evaluated using standard metrics such as accuracy, precision, recall, and F1-score.
 
 This project demonstrates the practical application of NLP and machine learning in human resource management and provides a scalable solution for modern recruitment processes. The developed system can be further enhanced by incorporating advanced language models and semantic matching techniques for improved candidate assessment.
+
+
+## Dataset
+
+Download the dataset from:
+
+https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+
+Place Resume.xls inside:
+
+dataset/Resume.xls
