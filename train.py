@@ -17,7 +17,7 @@ def clean_text(text):
     return text
 
 
-df = pd.read_excel("dataset/Resume.xls")
+df = pd.read_csv("dataset/Resume.csv")
 
 df["Resume_str"] = df["Resume_str"].apply(clean_text)
 
