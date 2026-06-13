@@ -70,16 +70,23 @@ Resume-Screening-System/
 
 ---
 
-## Workflow
+# Model Performance
 
-1. Load resume dataset.
-2. Preprocess resume text.
-3. Convert text into numerical features using TF-IDF.
-4. Train the machine learning model.
-5. Save the trained model.
-6. Predict the category of new resumes through the Streamlit application.
+- Algorithm: Linear Support Vector Classifier (LinearSVC)
+- Feature Extraction: TF-IDF Vectorization
+- Accuracy: 70.42%
 
----
+## Sample Output
+
+### Example
+
+Input:
+
+Experienced HR professional with expertise in recruitment, employee engagement, payroll management, and talent acquisition.
+
+Output:
+
+Prediction: HR
 
 ## Author
 
